@@ -3,13 +3,14 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './regist.css'
 import Registration from './pages/registration';
+import Login from './pages/login';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Display from './pages/display';
 
-function BasicExample() {
+function App() {
   return (
-    <div className='form-wrapper'>
-      <Registration/>
-    </div>
+    <Display/>
   );
 }
 
-export default BasicExample;
+export default App;
