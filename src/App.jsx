@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import './regist.css'
+import Registration from './pages/registration';
 
-const AppFunction = () => {
-
+function BasicExample() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-      <Button>Potangina!</Button>
+    <div className='form-wrapper'>
+      <Registration/>
     </div>
-  )
+  );
 }
 
-export default AppFunction
+export default BasicExample;
